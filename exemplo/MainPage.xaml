@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage    
+    xmlns:autcomplete="clr-namespace:dotMorten.Xamarin.Forms;assembly=dotMorten.Xamarin.Forms.AutoSuggestBox"
+    xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="exemplo.MainPage">
+    <StackLayout Padding="40">
+
+        <autcomplete:AutoSuggestBox
+            PlaceholderText="Users"  WidthRequest="200"
+
+
+            TextChanged="AutoSuggestBox_TextChanged1"
+            />
+
+
+        <autcomplete:AutoSuggestBox            
+            PlaceholderText="Other Data!!"  WidthRequest="200"
+
+
+            TextChanged="AutoSuggestBox_TextChanged2"
+            />
+    </StackLayout>
+</ContentPage>
